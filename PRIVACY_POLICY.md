@@ -4,13 +4,13 @@
 
 Bluetooth Priority ("the app") is a Bluetooth audio management utility for Android. This policy describes how the app handles information.
 
-## No data is collected or transmitted
+## No data is collected unless you send it
 
-The app does not collect, store, transmit, or share any personal information, usage data, analytics, or device identifiers with the developer or any third party. All data the app generates (event logs, settings, device preferences) is stored exclusively on your device and never leaves it, unless you choose to send a support request (see below).
+The app does not automatically collect, transmit, or share any personal information, usage data, analytics, or device identifiers with the developer or any third party, and it never shares data with any third party. All data the app generates (event logs, settings, device preferences) is stored exclusively on your device and never leaves it, unless you choose to send a support request (see below).
 
 ## Bluetooth permissions
 
-The app requests Bluetooth permissions (`BLUETOOTH_CONNECT`, `BLUETOOTH_SCAN`) solely to detect connected audio devices and enforce your configured audio routing policy. Device names and MAC addresses are used only in memory at runtime and in the on-device event log. They are never transmitted off-device.
+The app requests Bluetooth permissions (`BLUETOOTH_CONNECT`, `BLUETOOTH_SCAN`) solely to detect connected audio devices and enforce your configured audio routing policy. Device names and MAC addresses are used only in memory at runtime and in the on-device event log. The app never transmits them off-device. Device names leave your device only in a support request that you choose to send (see below), and MAC addresses are masked there.
 
 ## Shizuku
 
