@@ -20,6 +20,10 @@ The app requires Shizuku, a third-party privilege manager, to access additional 
 
 If you contact support from the app's Support tab and choose to attach diagnostics, your email app sends a text file to the developer. It contains Bluetooth device names (MAC addresses are masked), your phone model and software versions, your BT Priority settings, and the app's diagnostic log. Nothing is sent unless you press send in your email app. The developer uses this information only to answer your request.
 
+## Deleting your data
+
+The app stores nothing off your device. If you sent a support request and want it deleted, email [support@zerolabs.fyi](mailto:support@zerolabs.fyi) and the developer will delete your email and any attachment.
+
 ## No third-party SDKs
 
 The app contains no advertising SDKs, analytics SDKs, or crash reporting services.
